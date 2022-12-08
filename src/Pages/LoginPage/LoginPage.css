@@ -1,0 +1,15 @@
+.LoginPageBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.LoginPageCard{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 400px;
+}
