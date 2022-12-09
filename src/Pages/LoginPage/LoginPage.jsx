@@ -5,7 +5,7 @@ const LoginPage = () => {
   return (
     <div className="LoginPageBody">
       <div className="LoginPageCard">
-      <h1>Sign In</h1>
+      <div className="logindiv">Login</div>
       <div className="hexagon"></div>
       <div className="togglebutton"></div>
       </div>
@@ -13,4 +13,4 @@ const LoginPage = () => {
   )
 }
 
-export default LoginPage
+export default LoginPage;

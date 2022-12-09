@@ -3,13 +3,32 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    background: #51FEB1;
+    margin:0px;
 }
 
 .LoginPageCard{
     display: flex;
     justify-content: center;
     border: 2px solid black;
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 3px #000;
+}
+
+.logindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 50px;
+    width: 95px;
+    position: relative;
+    top:-20px;
+    background:#F8FF1D;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px #000;
 }
