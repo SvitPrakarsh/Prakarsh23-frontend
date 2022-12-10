@@ -1,0 +1,95 @@
+.LoginPageBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9EFD7;
+    margin:0px;
+}
+
+.LoginPageCard{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px #000;
+}
+
+.signindiv{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 50px;
+    width: 95px;
+    position: relative;
+    top:-20px;
+    color: white;
+    background:#E3CFFF;
+    border-radius: 12px;
+    box-shadow: 2px 2px 0px #000;
+}
+
+.emailinput{
+    width: 240px;
+    margin: auto;
+    font-size: 7px;
+    color: lightgray;
+    position: relative;
+    top:20px;
+}
+.emailinput input{
+    border: none;
+    background:lightgray;
+    border-radius: 10px;
+    width: 240px;
+    height: 35px;
+
+}
+.requestOTPbtn{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 16px;
+    height: 40px;
+    width: 160px;
+    position: relative;
+    top:70px;
+    background:#8C52FF;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 2px 2px 3px #000;
+}
+.requestOTPbtn:hover{
+    cursor: pointer;
+}
+.signUpOptionDiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    height: 20px;
+    border-top: 2px solid black;
+}
+.signUpOptionDiv .orsignupwith{
+    font-size: 10px;
+    background: white;
+    display: block;
+    position: relative;
+    top: -22px;
+    height: 40px;
+    padding: 0px 5px 0px 5px;
+}
+
+.cardFooter{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
